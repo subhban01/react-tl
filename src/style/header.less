@@ -1,0 +1,37 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 69px;
+  min-height: 69px;
+  border-bottom: 5px solid #343436;
+  box-shadow: 0 1px 1px black;
+  background: #000000;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 21px;
+  @media screen and (max-width: 30em) {
+    height: 80px;
+  }
+  &__row1 {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+  }
+  &__row2 {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  &__company-motto {
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+}

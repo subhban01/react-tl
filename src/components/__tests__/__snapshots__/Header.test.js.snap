@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render the Header correctly 1`] = `
+<section
+  className="header"
+>
+  <div
+    className="header__row1"
+  >
+    <span
+      className="header__company-name"
+    >
+      Waters - Paterson
+    </span>
+  </div>
+  <div
+    className="header__row2"
+  >
+    <span
+      className="header__company-motto"
+    >
+      mission-critical whiteboard infomediaries
+    </span>
+    <span
+      className="header__company-estdate"
+    >
+      Since 
+      08/08/2015
+    </span>
+  </div>
+</section>
+`;

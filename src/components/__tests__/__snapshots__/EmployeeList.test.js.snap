@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeList Component should render the employeeList correctly 1`] = `
+<div
+  className="employee-list__main-area"
+>
+  <div
+    className="employee-list__main-area employee-list__main-area--centered"
+  >
+    <section
+      className="employee-list__cards"
+    >
+      <article
+        className="employee-list__card"
+        key="0"
+      >
+        <a
+          className="employee-list__card-anchor"
+          onClick={[Function]}
+        >
+          <figure
+            className="employee-list__thumbnail"
+          >
+            <img
+              className="employee-list__thumbnail-img"
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/joannefournier/128.jpg"
+            />
+          </figure>
+          <div
+            className="employee-list__card-content"
+          >
+            <div
+              className="employee-list__card-content content-header"
+            >
+              <span
+                className="employee-list__card-content first-name"
+              >
+                Ali
+              </span>
+              <span
+                className="employee-list__card-content last-name"
+              >
+                Kiehn
+              </span>
+            </div>
+            <p
+              className="employee-list__card-content paragraph"
+            >
+              Dolorem voluptatibus rem repellat qui repellat fuga quod veniam itaque. Ad fugit repudiandae ut voluptas aut. Iusto fuga eos accusamus et unde alias. Totam et veritatis qui et minus.
+            </p>
+          </div>
+        </a>
+      </article>
+      <article
+        className="employee-list__card"
+        key="1"
+      >
+        <a
+          className="employee-list__card-anchor"
+          onClick={[Function]}
+        >
+          <figure
+            className="employee-list__thumbnail"
+          >
+            <img
+              className="employee-list__thumbnail-img"
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/alek_djuric/128.jpg"
+            />
+          </figure>
+          <div
+            className="employee-list__card-content"
+          >
+            <div
+              className="employee-list__card-content content-header"
+            >
+              <span
+                className="employee-list__card-content first-name"
+              >
+                Tahlia
+              </span>
+              <span
+                className="employee-list__card-content last-name"
+              >
+                Rees
+              </span>
+            </div>
+            <p
+              className="employee-list__card-content paragraph"
+            >
+              Quasi iste aspernatur nam voluptatem doloribus. Assumenda molestiae ut ut natus assumenda nemo error. Ab accusamus sunt enim. In possimus dolor quo. Maiores natus voluptatem exercitationem delectus. Error tempore non quo voluptas.
+            </p>
+          </div>
+        </a>
+      </article>
+      <article
+        className="employee-list__card"
+        key="2"
+      >
+        <a
+          className="employee-list__card-anchor"
+          onClick={[Function]}
+        >
+          <figure
+            className="employee-list__thumbnail"
+          >
+            <img
+              className="employee-list__thumbnail-img"
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/joetruesdell/128.jpg"
+            />
+          </figure>
+          <div
+            className="employee-list__card-content"
+          >
+            <div
+              className="employee-list__card-content content-header"
+            >
+              <span
+                className="employee-list__card-content first-name"
+              >
+                Isabella
+              </span>
+              <span
+                className="employee-list__card-content last-name"
+              >
+                D'amore
+              </span>
+            </div>
+            <p
+              className="employee-list__card-content paragraph"
+            >
+              Odit possimus dolores mollitia aperiam labore. Qui tempore culpa illo iusto beatae a voluptatem atque rerum. Aliquid atque quibusdam et qui dolorem ut voluptatem.
+            </p>
+          </div>
+        </a>
+      </article>
+    </section>
+  </div>
+</div>
+`;

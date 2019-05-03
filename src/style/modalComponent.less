@@ -1,0 +1,88 @@
+.modal-comp {
+  &__overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(171, 164, 164, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.hide-modal {
+      display: none;
+    }
+    &.show-modal {
+      display: flex;
+    }
+  }
+  &__container {
+    display: flex;
+    position: relative;
+    background: #fff;
+    flex-direction: row;
+    width: 39%;
+    height: 52%;
+    padding: 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+
+    @media screen and (max-width: 30em) {
+      width: 100%;
+      height: 94%;
+      flex-direction: column;
+    }
+  }
+  &__close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background: url("./images/close-icon.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+  }
+  &__left-section {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    font-size: 14px;
+  }
+  &__left-section-title {
+    margin-top: 20px;
+  }
+  &__left-section-age {
+    margin-top: 8px;
+  }
+  &__left-section-joined {
+    margin-top: 8px;
+  }
+  &__left-section-figure {
+    margin: 0;
+  }
+  &__left-section-img {
+    width: 150px;
+    height: auto;
+  }
+  &__right-section {
+    padding-top: 107px;
+    margin-left: 20px;
+    @media screen and (max-width: 30em) {
+      padding-top: 20px;
+      margin: 0;
+    }
+  }
+  &__right-section-row {
+    height: 30px;
+    font-size: 26px;
+    padding: 5px;
+    text-transform: capitalize;
+    border-bottom: 3px solid #ddd;
+  }
+  &__right-section-fname {
+    margin-right: 10px;
+  }
+  &__right-section-lname {
+    text-transform: capitalize;
+  }
+}
